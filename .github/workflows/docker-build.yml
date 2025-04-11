@@ -1,6 +1,7 @@
 name: Multi-Arch Docker Build and Push
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main  # Runs on push to main branch
